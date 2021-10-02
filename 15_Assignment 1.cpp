@@ -23,7 +23,7 @@ class Employee
 		cout<<"Enter the Basic Salary of Employee"<<endl;
 		cin>>Basic;
 	}
-	void calculate_details()        //Method to create Calulate the value
+	void calculate_details()        //Method to Calulate the value
 	{
 		DA=1.32*Basic;
 		IT=0.30*(Basic+DA);
